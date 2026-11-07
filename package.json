@@ -42,7 +42,8 @@
           ]
         }
       ]
-    }
+    },
+    "minApp": "1.0.12"
   },
   "license": "SEE LICENSE IN LICENSE",
   "repository": {

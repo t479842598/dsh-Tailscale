@@ -263,7 +263,7 @@ dsh-Tailscale/
 
 ## 11. 许可证与署名
 
-本项目采用 **dsh-Tailscale Non-Commercial License 1.0**：
+本项目采用 **dsh-Tailscale Non-Commercial License 1.0**（源码公开，但不是 OSI 认证的开源许可证）：
 
 - **不可商用**：不得将本项目或其主要部分用于商业目的。
 - **署名要求**：使用、复制、修改、分发或二次开发时，必须保留版权与许可声明，并在产品或
