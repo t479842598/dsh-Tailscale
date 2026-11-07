@@ -1,0 +1,33 @@
+dsh-Tailscale
+=============
+
+Copyright (c) 2026 t479842598
+Project: https://github.com/t479842598/dsh-Tailscale
+License: dsh-Tailscale Non-Commercial License 1.0 (see LICENSE)
+
+Third-party components and references
+-------------------------------------
+
+Tailscale
+  The plugin downloads and runs the official Tailscale `tailscale` and
+  `tailscaled` binaries from https://pkgs.tailscale.com/stable/.
+  Tailscale is a trademark of Tailscale Inc. This project is not affiliated
+  with or endorsed by Tailscale Inc.
+
+OpenMinis
+  The embedded networking architecture was informed by the open-source
+  OpenMinis project: https://github.com/OpenMinis/OpenMinis
+  No OpenMinis source code is copied into this repository. OpenMinis is
+  licensed separately by its own copyright holders.
+
+Node.js / undici
+  The plugin uses the Node.js runtime and the `undici` package provided by the
+  dsh host environment. Node.js and undici retain their respective licenses.
+
+Attribution requirement
+-----------------------
+
+Any use, modification, distribution, or derivative work of dsh-Tailscale must
+retain this NOTICE and give prominent credit:
+
+  "dsh-Tailscale by t479842598 — https://github.com/t479842598/dsh-Tailscale"

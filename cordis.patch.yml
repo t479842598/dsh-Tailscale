@@ -1,0 +1,3 @@
+- insert:
+    - id: local-tailscale
+      name: local-tailscale

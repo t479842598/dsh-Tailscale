@@ -1,0 +1,54 @@
+{
+  "name": "local-tailscale",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "Embedded Tailscale userspace networking for dsh-go: route intranet host:port traffic from the engine without a user-facing local gateway.",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "dshGo": {
+    "v": 1,
+    "title": {
+      "zh": "Tailscale 内网",
+      "en": "Tailscale Network"
+    },
+    "icon": "globe",
+    "contributes": {
+      "composer.strip": [
+        {
+          "id": "ts-status",
+          "icon": "globe",
+          "panel": "tailscale"
+        }
+      ],
+      "panels": [
+        {
+          "id": "tailscale",
+          "title": {
+            "zh": "Tailscale 内网",
+            "en": "Tailscale Net"
+          },
+          "icon": "globe",
+          "placement": [
+            "session.tab",
+            "features"
+          ]
+        }
+      ]
+    }
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t479842598/dsh-Tailscale.git"
+  },
+  "author": "t479842598",
+  "homepage": "https://github.com/t479842598/dsh-Tailscale#readme"
+}

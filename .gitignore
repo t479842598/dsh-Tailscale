@@ -1,0 +1,7 @@
+bin/
+data/
+node_modules/
+dist/
+*.log
+.pnpm-debug.log*
+.DS_Store
